@@ -24,7 +24,11 @@ def download_random_gif():
     urllib.request.urlretrieve(api_response.data.image_url, hug_filename)
 
 download_random_gif()
+# Twitter has a max upload size of 15MB
+while os.path.getsize(hug_filename) > 15728640:
+    download_random_gif()
+
 gif_upload = api.media_upload(hug_filename)
-api.update_status("Hello World (with hug)", media_ids=[gif_upload.media_id])
+api.update_status("This account is under construction, please excuse our appearance", media_ids=[gif_upload.media_id])
 
 os.remove(hug_filename)
