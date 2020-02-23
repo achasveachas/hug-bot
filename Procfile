@@ -1,2 +1,2 @@
-worker: python hug-bot.py
 web: python server.py
+worker: python hug-bot.py
