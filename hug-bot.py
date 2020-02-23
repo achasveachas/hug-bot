@@ -20,7 +20,8 @@ def download_random_gif():
     giphy_api_key = environ['giphy_api_key']
     tag = 'hug'
     fmt = 'json'
-    api_response = giphy_api.gifs_random_get(giphy_api_key, tag=tag, fmt=fmt)
+    rating = 'g'
+    api_response = giphy_api.gifs_random_get(giphy_api_key, tag=tag, fmt=fmt, rating=rating)
     
     urllib.request.urlretrieve(api_response.data.image_url, hug_filename)
 
