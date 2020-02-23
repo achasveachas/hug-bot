@@ -26,11 +26,10 @@ def download_random_gif():
 
 def check_mentions():
     since_id = environ['since_id']
-    print("Since Id At Start {}".format(since_id))
     for tweet in tweepy.Cursor(api.mentions_timeline,
         since_id=since_id).items():
         new_since_id = max(tweet.id, int(since_id))
-        print("Since_id: {} tweet id: {}".format(new_since_id, tweet.id))
+        print('tweeting to tweet {}'.format(tweet.id))
         tweet_gif(tweet.author.screen_name, tweet.id)
         environ['since_id'] = str(new_since_id)
 
