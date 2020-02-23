@@ -24,14 +24,12 @@ def download_random_gif():
     
     urllib.request.urlretrieve(api_response.data.image_url, hug_filename)
 
-def check_mentions(since_id):
-    new_since_id = since_id
+def check_mentions():
+    since_id = environ["since_id"]
     for tweet in tweepy.Cursor(api.mentions_timeline,
         since_id=since_id).items():
-        new_since_id = max(tweet.id, new_since_id)
-        print()
+        environ["since_id"] = str(max(tweet.id, since_id))
         tweet_gif(tweet.author.screen_name, tweet.id)
-    return new_since_id
 
 def tweet_gif(reply_to_user, reply_to_id):
     download_random_gif()
@@ -48,10 +46,9 @@ def tweet_gif(reply_to_user, reply_to_id):
     os.remove(hug_filename)
 
 def main():
-    since_id = 1231428395843702785
     while True:
         print("Checking mentions %s" % datetime.now())
-        since_id = check_mentions(since_id)
+        check_mentions()
         time.sleep(10)
 
 if __name__ == "__main__":
