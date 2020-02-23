@@ -2,6 +2,7 @@ import time
 import urllib.request
 import os
 from os import environ
+from datetime import datetime
 import giphy_client
 import tweepy
 
@@ -49,6 +50,7 @@ def tweet_gif(reply_to_user, reply_to_id):
 def main():
     since_id = 1231428395843702785
     while True:
+        print("Checking mentions %s" % datetime.now())
         since_id = check_mentions(since_id)
         time.sleep(10)
 
