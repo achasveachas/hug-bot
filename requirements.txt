@@ -1,3 +1,2 @@
 giphy-client==1.0.0
 tweepy==3.8.0
-Flask==1.0.2
