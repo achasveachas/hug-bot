@@ -41,7 +41,7 @@ def tweet_gif(reply_to_user, reply_to_id):
 
     gif_upload = api.media_upload(hug_filename)
     api.update_status(
-        status="@%s Have a hug!" % reply_to_user,
+        status="Here! Have a hug! @{}"(reply_to_user),
         media_ids=[gif_upload.media_id],
         in_reply_to_status_id=reply_to_id
     )
