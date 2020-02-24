@@ -21,39 +21,25 @@ def download_random_gif():
     tag = 'hug'
     fmt = 'json'
     rating = 'g'
-    api_response = giphy_api.gifs_random_get(giphy_api_key, tag=tag, fmt=fmt, rating=rating)
-    
-    urllib.request.urlretrieve(api_response.data.image_url, hug_filename)
-
-def check_mentions(since_id):
-    new_since_id = since_id
-    for tweet in tweepy.Cursor(api.mentions_timeline,
-        since_id=since_id).items():
-        new_since_id = max(tweet.id, new_since_id)
-        print()
-        tweet_gif(tweet.author.screen_name, tweet.id)
-    return new_since_id
-
-def tweet_gif(reply_to_user, reply_to_id):
-    download_random_gif()
+    open(hug_filename, 'w')
     # Twitter has a max upload size of 15MB
-    while os.path.getsize(hug_filename) > 15000000:
-        download_random_gif()
+    while os.path.getsize(hug_filename) == 0 or os.path.getsize(hug_filename) > 15000000:
+        api_response = giphy_api.gifs_random_get(giphy_api_key, tag=tag, fmt=fmt, rating=rating)
+        urllib.request.urlretrieve(api_response.data.image_url, hug_filename)
 
+def tweet_gif():
     gif_upload = api.media_upload(hug_filename)
     api.update_status(
-        status="Here @{}! Have a hug!\n\n[gif-alt: randomly generated gif hopefully depicting a hug]".format(reply_to_user),
+        status="Here! Have a hug!\n\n[gif-alt: randomly generated gif hopefully depicting a hug]",
         media_ids=[gif_upload.media_id],
-        in_reply_to_status_id=reply_to_id
     )
     os.remove(hug_filename)
 
 def main():
-    since_id = 1231587018104328193
     while True:
-        print("Checking mentions %s" % datetime.now())
-        since_id = check_mentions(since_id)
-        time.sleep(10)
+        download_random_gif()
+        tweet_gif()
+        time.sleep(10800)
 
 if __name__ == "__main__":
     main()
