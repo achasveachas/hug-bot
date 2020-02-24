@@ -3,8 +3,11 @@ import urllib.request
 import os
 from os import environ
 from datetime import datetime
+from random import choice
 import giphy_client
 import tweepy
+
+from statuses import STATUSES
 
 twitter_api_key = environ['twitter_api_key']
 twitter_api_secret = environ['twitter_api_secret']
@@ -31,7 +34,7 @@ def tweet_gif():
     gif_upload = api.media_upload(hug_filename)
     api.create_media_metadata(media_id=gif_upload.media_id, alt_text="randomly generated gif hopefully depicting a hug")
     api.update_status(
-        status="Here! Have a hug!",
+        status=choice(STATUSES),
         media_ids=[gif_upload.media_id],
     )
     os.remove(hug_filename)
