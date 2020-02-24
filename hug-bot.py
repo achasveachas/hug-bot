@@ -29,8 +29,9 @@ def download_random_gif():
 
 def tweet_gif():
     gif_upload = api.media_upload(hug_filename)
+    api.create_media_metadata(media_id=gif_upload.media_id, alt_text="randomly generated gif hopefully depicting a hug")
     api.update_status(
-        status="Here! Have a hug!\n\n[gif-alt: randomly generated gif hopefully depicting a hug]",
+        status="Here! Have a hug!",
         media_ids=[gif_upload.media_id],
     )
     os.remove(hug_filename)
