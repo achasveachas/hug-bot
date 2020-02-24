@@ -1,3 +1,16 @@
 STATUSES = (
    "Here! Have a hug!",
+   "You deserve a hug!",
+   "I don't know who needs this today, but here, have a hug.",
+   "Hug a friend today (if they want it)!",
+   "Hugs are so underrated!",
+   "It's only a hug if it's from the Hughes region of France, otherwise it's just sparkling cuddles.",
+   "I just took a DNA tet, turns out I'm 100% hugs!",
+   "I have 30-50 feral hugs for you all.",
+   "You get a hug! And you get a hug! And you get a hug! Everyone gets a hug!!!",
+   "A hug is worth a thousand words!",
+   "Did you know?\n\nStudies have shown that a hug a day can reduce stress, improve immune system function, lower your risk of heart disease, and ease depression!\n\nHug someone today!",
+   "A hug a day keeps the doctor away.",
+   "Need a hug?",
+   "Make hugs, not war!",
 )
