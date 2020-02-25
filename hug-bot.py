@@ -29,14 +29,16 @@ def download_random_gif():
     while os.path.getsize(gif_filename) == 0 or os.path.getsize(gif_filename) > 15000000:
         api_response = giphy_api.gifs_random_get(giphy_api_key, tag=tag, fmt=fmt, rating=rating)
         urllib.request.urlretrieve(api_response.data.image_url, gif_filename)
+    print("Downloaded GIF ID: {}, GIF URL: {}".format(api_response.data.id, api_response.data.image_url))
 
 def tweet_gif():
     gif_upload = api.media_upload(gif_filename)
     api.create_media_metadata(media_id=gif_upload.media_id, alt_text="randomly generated gif, hopefully depicting a hug")
-    api.update_status(
+    status = api.update_status(
         status=choice(STATUSES),
         media_ids=[gif_upload.media_id],
     )
+    print("Sent Tweet ID: " + status.id_str)
     os.remove(gif_filename)
 
 def main():
