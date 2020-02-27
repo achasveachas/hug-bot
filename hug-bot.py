@@ -3,7 +3,7 @@ import urllib.request
 import os
 from os import environ
 from datetime import datetime
-from random import choice
+from random import shuffle
 import giphy_client
 import tweepy
 
@@ -34,12 +34,18 @@ def download_random_gif():
         urllib.request.urlretrieve(api_response.data.image_url, gif_filename)
     print("Downloaded GIF ID: {}, GIF URL: {}".format(api_response.data.id, api_response.data.image_url))
 
+def select_status():
+    if not statuses:
+        statuses = list(STATUSES)
+        shuffle(statuses)
+    return statuses.pop()
+
 def tweet_gif():
     api = twitter_api()
     gif_upload = api.media_upload(gif_filename)
     api.create_media_metadata(media_id=gif_upload.media_id, alt_text="randomly generated gif, hopefully depicting a hug")
     status = api.update_status(
-        status=choice(STATUSES),
+        status=select_status(),
         media_ids=[gif_upload.media_id],
     )
     print("Sent Tweet ID: " + status.id_str)
