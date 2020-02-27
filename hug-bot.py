@@ -9,14 +9,17 @@ import tweepy
 
 from statuses import STATUSES
 
-twitter_api_key = environ['twitter_api_key']
-twitter_api_secret = environ['twitter_api_secret']
-twitter_access_token = environ['twitter_access_token']
-twitter_access_secret = environ['twitter_access_secret']
-auth = tweepy.OAuthHandler(twitter_api_key, twitter_api_secret)
-auth.set_access_token(twitter_access_token, twitter_access_secret)
-api = tweepy.API(auth)
 gif_filename = "hug.gif"
+statuses = []
+
+def twitter_api():
+    twitter_api_key = environ['twitter_api_key']
+    twitter_api_secret = environ['twitter_api_secret']
+    twitter_access_token = environ['twitter_access_token']
+    twitter_access_secret = environ['twitter_access_secret']
+    auth = tweepy.OAuthHandler(twitter_api_key, twitter_api_secret)
+    auth.set_access_token(twitter_access_token, twitter_access_secret)
+    return tweepy.API(auth)
 
 def download_random_gif():
     giphy_api = giphy_client.DefaultApi()
@@ -32,6 +35,7 @@ def download_random_gif():
     print("Downloaded GIF ID: {}, GIF URL: {}".format(api_response.data.id, api_response.data.image_url))
 
 def tweet_gif():
+    api = twitter_api()
     gif_upload = api.media_upload(gif_filename)
     api.create_media_metadata(media_id=gif_upload.media_id, alt_text="randomly generated gif, hopefully depicting a hug")
     status = api.update_status(
