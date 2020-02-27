@@ -4,7 +4,7 @@ STATUSES = (
    "I don't know who needs this today, but here, have a hug.",
    "Hug a friend today (if they want it)!",
    "Hugs are so underrated!",
-   "It's only a hug if it's from the Hughes region of France, otherwise it's just sparkling cuddles.",
+   "It's only a hug if it's from the Hughes region of France; otherwise it's just sparkling cuddles.",
    "I just took a DNA test, turns out I'm 100% hugs!",
    "What am I supposed to do with these 30-50 feral hugs?",
    "You get a hug! And you get a hug! And you get a hug! Everyone gets a hug!!!",
@@ -15,7 +15,7 @@ STATUSES = (
    "Make hugs, not war!",
    "1. Give hugs.\n\n2. ...\n3. Profit?\n\n\n(Kidding of course! The hugs ARE the profit!)",
    "Hugs.\n\n\n\nThat's it, that's the tweet.",
-   "Nobody, noboy at all:\n\nMe: Here, have a hug!",
+   "Nobody, nobody at all:\n\nMe: Here, have a hug!",
    "Hugging a friend makes you feel better, makes them feel better, and makes the world a better place!\n\n\nThanks for coming to my TED talk.",
-   "*Taps mic* 'Is this thing on?'\n\n'Hello everyone, here's a hug!'",
+   "*Taps mic* 'Is this thing on?'\n\n'Hello everyone here's a hug!'",
 )
