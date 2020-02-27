@@ -36,8 +36,9 @@ def download_random_gif():
 
 def select_status():
     if not statuses:
-        statuses = list(STATUSES)
+        statuses.extend(STATUSES)
         shuffle(statuses)
+
     return statuses.pop()
 
 def tweet_gif():
