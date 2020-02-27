@@ -16,4 +16,6 @@ STATUSES = (
    "1. Give hugs.\n\n2. ...\n3. Profit?\n\n\n(Kidding of course! The hugs ARE the profit!)",
    "Hugs.\n\n\n\nThat's it, that's the tweet.",
    "Nobody, noboy at all:\n\nMe: Here, have a hug!",
+   "Hugging a friend makes you feel better, makes them feel better, and makes the world a better place!\n\n\nThanks for coming to my TED talk.",
+   "*Taps mic* 'Is this thing on?'\n\n'Hello everyone, here's a hug!'",
 )
