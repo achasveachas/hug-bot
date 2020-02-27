@@ -5,7 +5,7 @@ STATUSES = (
    "Hug a friend today (if they want it)!",
    "Hugs are so underrated!",
    "It's only a hug if it's from the Hughes region of France, otherwise it's just sparkling cuddles.",
-   "I just took a DNA tet, turns out I'm 100% hugs!",
+   "I just took a DNA test, turns out I'm 100% hugs!",
    "What am I supposed to do with these 30-50 feral hugs?",
    "You get a hug! And you get a hug! And you get a hug! Everyone gets a hug!!!",
    "A hug is worth a thousand words!",
