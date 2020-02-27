@@ -53,10 +53,8 @@ def tweet_gif():
     os.remove(gif_filename)
 
 def main():
-    while True:
-        download_random_gif()
-        tweet_gif()
-        time.sleep(10800)
+    download_random_gif()
+    tweet_gif()
 
 if __name__ == "__main__":
     main()
