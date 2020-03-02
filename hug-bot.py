@@ -26,11 +26,10 @@ def download_random_gif():
     giphy_api_key = environ['giphy_api_key']
     tag = 'hug'
     fmt = 'json'
-    rating = 'g'
     open(gif_filename, 'w')
     # Twitter has a max upload size of 15MB
-    while os.path.getsize(gif_filename) == 0 or os.path.getsize(gif_filename) > 15000000:
-        api_response = giphy_api.gifs_random_get(giphy_api_key, tag=tag, fmt=fmt, rating=rating)
+    while os.path.getsize(gif_filename) == 0 or os.path.getsize(gif_filename) > 15728640:
+        api_response = giphy_api.gifs_random_get(giphy_api_key, tag=tag, fmt=fmt)
         urllib.request.urlretrieve(api_response.data.image_url, gif_filename)
     print("Downloaded GIF ID: {}, GIF URL: {}".format(api_response.data.id, api_response.data.image_url))
 
