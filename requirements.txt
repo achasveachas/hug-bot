@@ -1,3 +1,4 @@
 giphy-client==1.0.0
+# TODO: Switch to tweepy master when they merge my PR
 # TODO: Switch to regular version after 3.0.9 comes out
-git+git://github.com/tweepy/tweepy@master
+git+git://github.com/achasveachas/tweepy@master

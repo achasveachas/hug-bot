@@ -2,9 +2,6 @@ from giphy import download_random_gif
 from time import sleep
 from tweet import tweet_gif
 
-gif_filename = "hug.gif"
-
-
 def main():
     while True:
         download_random_gif(gif_filename)
