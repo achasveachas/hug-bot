@@ -10,7 +10,8 @@ STATUSES = (
    "You get a hug! And you get a hug! And you get a hug! Everyone gets a hug!!!",
    "A hug is worth a thousand words!",
    "Did you know?\n\nStudies have shown that a hug a day can reduce stress, improve immune system function, lower your risk of heart disease, and ease depression!\n\nHug someone today!",
-   "A hug a day keeps the doctor away.",
+   # Should probably keep this commented until #coronavirus is over
+   # "A hug a day keeps the doctor away.",
    "Need a hug?",
    "Make hugs, not war!",
    "1. Give hugs.\n2. ...\n3. Profit?\n\n\n(Kidding of course! The hugs ARE the profit!)",
