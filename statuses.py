@@ -25,4 +25,6 @@ STATUSES = (
    "#SocialDistancing doesn't mean we need to be socially isolated! Send a virtual hug to someone today!",
    "Missing that physical touch? Here's a virtual hug!",
    "Coronavirus is a bitch! Stay inside; send virtual hugs instead!",
+   "After all this #SocialDistancing, are hugs part of the #StimulusPlan? \n\nNo? I'm here to fill in",
+   "A #COVIDー19 Poem:\n🌹Roses are red\n💙Violets are blue\n🏠#StayTheFHome to stop spread\n🤗'Til next time, a hug for you",
 )
