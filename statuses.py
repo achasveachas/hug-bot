@@ -2,7 +2,7 @@ STATUSES = (
    "Here! Have a hug!",
    "You deserve a hug!",
    "I don't know who needs this today, but here, have a hug.",
-   "Hug a friend today (if they want it)!",
+   "Hug a friend today!",
    "Hugs are so underrated!",
    "It's only a hug if it's from the Hughes region of France; otherwise it's just sparkling cuddles.",
    "I just took a DNA test, turns out I'm 100% hugs!",
