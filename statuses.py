@@ -27,4 +27,5 @@ STATUSES = (
    "Coronavirus is a bitch! Stay inside; send virtual hugs instead!",
    "After all this #SocialDistancing, are hugs part of the #StimulusPlan? \n\nNo? I'm here to fill in",
    "🌹Roses are red\n💙Violets are blue\n🏠#StayTheFHome to stop spread\n🤗'Til next time, a hug for you",
+   "Here's a small hug the size of a large hug!",
 )
