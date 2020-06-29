@@ -29,4 +29,5 @@ STATUSES = (
    "🌹Roses are red\n💙Violets are blue\n🏠#StayTheFHome to stop spread\n🤗'Til next time, a hug for you",
    "Here's a small hug the size of a large hug!",
    "I love hugs!\n\nSend tweet!",
+   "Friends be like \"I know a spot\" and then just give you a hug.",
 )
