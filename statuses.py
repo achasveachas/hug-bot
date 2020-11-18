@@ -29,5 +29,5 @@ STATUSES = (
    "Here's a small hug the size of a large hug!",
    "I love hugs!\n\nSend tweet!",
    "Friends be like \"I know a spot\" and then just give you a hug.",
-   "Hugs are great!\n\n\nⓘ Official sources all agree this is the case",
+   "Hugs are great!\n\n\n\n\n\n\nⓘ Official sources all agree this is the case",
 )
