@@ -30,4 +30,5 @@ STATUSES = (
    "I love hugs!\n\nSend tweet!",
    "Friends be like \"I know a spot\" and then just give you a hug.",
    "Hugs are great!\n\n\n\n\n\n\nⓘ Official sources all agree this is the case",
+   "I'm a:\n⚪️ Man\n⚪️ Woman\n🔵 Twitter Bot\n\nLooking for a:\n⚪️ Man\n⚪️ Woman\n🔵 Hug!",
 )
