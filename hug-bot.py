@@ -26,9 +26,7 @@ def download_random_gif():
     tag = 'hug'
     fmt = 'json'
     open(gif_filename, 'w')
-    # Twitter has a max upload size of 15MB
-    # TODO: tweepy has a bug and doesn't let more than ~5mb, update the max when they fix it
-    while os.path.getsize(gif_filename) == 0 or os.path.getsize(gif_filename) > 5242880:
+    while os.path.getsize(gif_filename) == 0 or os.path.getsize(gif_filename) > 14649 * 1024:
         api_response = giphy_api.gifs_random_get(giphy_api_key, tag=tag, fmt=fmt)
         urllib.request.urlretrieve(api_response.data.image_url, gif_filename)
     print("Downloaded GIF ID: {}, GIF URL: {}".format(api_response.data.id, api_response.data.image_url))
