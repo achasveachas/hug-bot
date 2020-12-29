@@ -33,4 +33,5 @@ STATUSES = (
    "Hugs are great!\n\n\n\n\n\n\nⓘ Official sources all agree this is the case",
    "I'm a:\n⚪️ Man\n⚪️ Woman\n🔘 Twitter Bot\n\nLooking for a:\n⚪️ Man\n⚪️ Woman\n🔘 Hug!",
    "The snuggle is real... 🤗",
+   "Don't forget to wear your mask! It's like a hug for your face 😷\n\nAnd while you're here, have a virtual hug 🤗"
 )
