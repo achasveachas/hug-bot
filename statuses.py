@@ -35,4 +35,5 @@ STATUSES = (
    "The snuggle is real... 🤗",
    "Don't forget to wear your mask! It's like a hug for your face 😷\n\nAnd while you're here, have a virtual hug 🤗",
    "Do you need a hug?\n\nYes          Yes             Yes\n 👇           👇             👇",
+   "My \"Free Hugs!\" t-shirt is raising a lot of questions already answered by my \"Free Hugs!\" t-shirt.",
 )
