@@ -9,6 +9,9 @@ tweets = api.search(q="need a hug", result_type="recent", count=100)
 tweet_ids = [tweet.id for tweet in tweets]
 
 for i, tweet in enumerate(tweets, start=1):
+    if tweet_ids.count(tweet.id) > 1:
+        tweet_ids.remove(tweet.id)
+        continue
     try:
         giphy.download_random_gif()
         gif_upload = api.media_upload(gif_filename)
