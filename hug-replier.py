@@ -16,7 +16,7 @@ for i, tweet in enumerate(tweets, start=1):
         giphy.download_random_gif()
         gif_upload = api.media_upload(gif_filename)
         api.create_media_metadata(media_id=gif_upload.media_id, alt_text="randomly generated gif, hopefully depicting a hug. ")
-        status = api.update_status(
+        api.update_status(
             in_reply_to_status_id=tweet.id,
             auto_populate_reply_metadata=True,
             media_ids=[gif_upload.media_id],
