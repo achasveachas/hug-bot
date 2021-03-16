@@ -1,6 +1,5 @@
 import urllib.request
 import os
-import sys
 from os import environ
 import giphy_client
 
@@ -10,7 +9,6 @@ def download_random_gif():
     giphy_api = giphy_client.DefaultApi()
     giphy_api_key = environ['giphy_api_key']
     tags = ['hug', 'hugging']
-    tags.extend(sys.argv[1:])
     tag = ' '.join(tags)
     rating = 'g'
     fmt = 'json'
