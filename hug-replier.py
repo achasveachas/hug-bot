@@ -9,8 +9,8 @@ tweets = api.search(q="need a hug", result_type="recent", count=100)
 tweet_ids = [tweet.id for tweet in tweets]
 
 for i, tweet in enumerate(tweets, start=1):
-    if tweet_ids.count(tweet.id) > 1:
-        tweet_ids.remove(tweet.id)
+    if hasattr(tweet, "retweeted_status") and tweet.retweeted_status.id in tweet_ids:
+        print(f"skipping retweet {tweet.id}")
         continue
     try:
         giphy.download_random_gif()
@@ -22,7 +22,7 @@ for i, tweet in enumerate(tweets, start=1):
             media_ids=[gif_upload.media_id],
         )
         print(f"Replied to tweet number {i}, id: {tweet.id}")
-    except:
-        print(f"An error occured while replying to tweet id: {tweet.id}")
+    except Exception as e:
+        print(f"An error occured while replying to tweet id: {tweet.id}\n{e.message}")
     finally:
         os.remove(gif_filename)
