@@ -5,7 +5,7 @@ from tweepy_client import twitter_api
 gif_filename = "hug.gif"
 
 api = twitter_api()
-tweets = api.search(q="need a hug", result_type="recent", count=100)
+tweets = api.search(q="I need a hug", result_type="recent", count=100)
 tweet_ids = set()
 for tweet in tweets:
     if hasattr(tweet, "retweeted_status"):
