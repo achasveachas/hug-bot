@@ -1,2 +1,3 @@
 giphy-client==1.0.0
-tweepy==3.10.0
+# TODO: Switch to regular version after next release (current latest=3.10.0 
+git+git://github.com/tweepy/tweepy@master
