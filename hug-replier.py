@@ -19,6 +19,7 @@ for i, id in enumerate(tweet_ids, start=1):
         gif_upload = api.media_upload(gif_filename, chunked=True)
         api.create_media_metadata(media_id=gif_upload.media_id, alt_text="randomly generated gif, hopefully depicting a hug. ")
         api.update_status(
+            status="🤗",
             in_reply_to_status_id=id,
             auto_populate_reply_metadata=True,
             media_ids=[gif_upload.media_id],
