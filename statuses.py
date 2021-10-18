@@ -23,7 +23,7 @@ STATUSES = (
    "🌹Roses are red\n💙Violets are blue\n🏠Tag a friend with this hug\n🤗So they'll feel hugged too!",
    "#SocialDistancing doesn't mean we need to be socially isolated! Send a virtual hug to someone today!",
    "Missing that physical touch? Here's a virtual hug!",
-   "With talk about vaccines in the air, does that mean we can soon have in-person hugs???",
+   "Please get vaccinated so we can get back to hugging each other safely 🥺",
    "Here's a small hug the size of a large hug!",
    "I love hugs!\n\nSend tweet!",
    "Friends be like \"I know a spot\" and then just give you a hug.",
@@ -33,4 +33,5 @@ STATUSES = (
    "Don't forget to wear your mask! It's like a hug for your face 😷\n\nAnd while you're here, have a virtual hug 🤗",
    "Do you need a hug?\n\nYes          Yes             Yes\n 👇           👇             👇",
    "My \"Free Hugs!\" t-shirt is raising a lot of questions already answered by my \"Free Hugs!\" t-shirt.",
+   "Your'e in her DMs, I'm here giving out hugs.\n\nWe are not the same.",
 )
