@@ -1,19 +1,30 @@
-import urllib.request
+from urllib.request import urlopen
+from urllib.request import urlretrieve
+from urllib.parse import urlencode
 import os
 from os import environ
+import json
 import giphy_client
 
 def download_random_gif():
     gif_filename = "hug.gif"
 
-    giphy_api = giphy_client.DefaultApi()
+    giphy_random_url = 'https://api.giphy.com/v1/gifs/random'
     giphy_api_key = environ['giphy_api_key']
     tags = ['hug', 'hugging']
-    tag = ' '.join(tags)
-    rating = 'g'
-    fmt = 'json'
+    giphy_params = {
+        'api_key': giphy_api_key,
+        'tag': ' '.join(tags),
+        'rating': 'g',
+        'fmt': 'json',
+    }
+    encoded_params = urlencode(giphy_params)
+
+    api_response = urlopen(giphy_random_url + "?" + encoded_params)
+    gif_data = json.loads(api_response.read())
+    gif_url = gif_data['data']['images']['downsized_large']['url']
+
     open(gif_filename, 'w')
-    while os.path.getsize(gif_filename) == 0 or os.path.getsize(gif_filename) > 14648 * 1024:
-        api_response = giphy_api.gifs_random_get(giphy_api_key, rating=rating, tag=tag, fmt=fmt)
-        urllib.request.urlretrieve(api_response.data.image_url, gif_filename)
-    print("Downloaded GIF ID: {}, GIF URL: {}".format(api_response.data.id, api_response.data.image_url))
+    urlretrieve(gif_url, gif_filename)
+    
+    print("Downloaded GIF ID: {}, GIF URL: {}".format(gif_data['data']['id'], gif_url))
