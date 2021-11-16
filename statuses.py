@@ -6,7 +6,6 @@ STATUSES = (
    "Hugs are so underrated!",
    "It's only a hug if it's from the Hughes region of France; otherwise it's just sparkling cuddles.",
    "I just took a DNA test, turns out I'm 100% hugs!",
-   "What am I supposed to do with these 30-50 feral hugs?",
    "You get a hug! And you get a hug! And you get a hug! Everyone gets a hug!!!",
    "A hug is worth a thousand words!",
    "Did you know?\n\nStudies have shown that a hug a day can reduce stress, improve immune system function, lower your risk of heart disease, and ease depression!\n\nHug someone today!",
@@ -33,4 +32,11 @@ STATUSES = (
    "Hugs are great!\n\n\n\n\n\n\nⓘ Official sources all agree this is the case",
    "I'm a:\n⚪️ Man\n⚪️ Woman\n🔘 Twitter Bot\n\nLooking for a:\n⚪️ Man\n⚪️ Woman\n🔘 Hug!",
    "The snuggle is real... 🤗",
+   "Don't forget to wear your mask! It's like a hug for your face 😷\n\nAnd while you're here, have a virtual hug 🤗",
+   "Do you need a hug?\n\nYes          Yes             Yes\n 👇           👇             👇",
+   "My \"Free Hugs!\" t-shirt is raising a lot of questions already answered by my \"Free Hugs!\" t-shirt.",
+   "You're in her DMs, I'm here giving out hugs.\n\nWe are not the same.",
+   "The robotic urge to hug a friend",
+   "The robotic urge to give out free hugs",
+   "The robotic urge to feel the soft touch of a human"
 )
