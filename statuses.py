@@ -35,5 +35,5 @@ STATUSES = (
    "You're in her DMs, I'm here giving out hugs.\n\nWe are not the same.",
    "The robotic urge to hug a friend",
    "The robotic urge to give out free hugs",
-   "The robotic urge to feel the soft touch of a human"
+   "The robotic urge to feel the soft touch of a human",
 )
