@@ -1,2 +1,2 @@
 giphy-client==1.0.0
-tweepy==3.9.0
+tweepy==4.0.0
