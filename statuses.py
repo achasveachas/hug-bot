@@ -33,7 +33,8 @@ STATUSES = (
    "Do you need a hug?\n\nYes          Yes             Yes\n 👇           👇             👇",
    "My \"Free Hugs!\" t-shirt is raising a lot of questions already answered by my \"Free Hugs!\" t-shirt.",
    "You're in her DMs, I'm here giving out hugs.\n\nWe are not the same.",
-   "The robotic urge to hug a friend",
-   "The robotic urge to give out free hugs",
-   "The robotic urge to feel the soft touch of a human",
+   "The robotic urge to hug a friend.",
+   "The robotic urge to give out free hugs.",
+   "The robotic urge to feel the soft touch of a human.",
+   "They're a 10, but they get cranky if they don't get their daily hug.",
 )
