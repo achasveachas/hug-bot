@@ -37,4 +37,5 @@ STATUSES = (
    "The robotic urge to give out free hugs.",
    "The robotic urge to feel the soft touch of a human.",
    "They're a 10, but they get cranky if they don't get their daily hug.",
+   "If I text you \"🤗\" it means I'm sending you a great humongous hug.",
 )
