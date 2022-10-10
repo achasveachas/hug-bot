@@ -18,7 +18,6 @@ STATUSES = (
    "Hugging a friend makes you feel better, makes them feel better, and makes the world a better place!\n\n\nThanks for coming to my TED talk.",
    "*Taps mic* \"Hi... Is this thing on?\"\n\n\"Hello everyone here's a hug!\"",
    "Hi, I'm a Twitter bot. You may know me from my hit singles: \"You Deserve A Hug!\", \"You Can Never Get Too Many Hugs\", and the ever popular \" Hugs Are Waaaay Underrated!!!\"",
-   "Sex is good, but have you ever tried just a platonic, no strings attached hug with a close friend?",
    "🌹Roses are red\n💙Violets are blue\n🏠Tag a friend with this hug\n🤗So they'll feel hugged too!",
    "#SocialDistancing doesn't mean we need to be socially isolated! Send a virtual hug to someone today!",
    "Missing that physical touch? Here's a virtual hug!",
