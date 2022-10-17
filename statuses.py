@@ -39,5 +39,7 @@ STATUSES = (
    "They're a 10, but they get cranky if they don't get their daily hug.",
    "If I text you \"🤗\" it means I'm sending you a great humongous hug.",
    "hey (with the intention of giving you a long tight hug because you deserve it)",
-   "hugs", 
+   "hugs",
+   "Less worry, more hugs",
+   "Retweet me for hugging me back ",
 )
