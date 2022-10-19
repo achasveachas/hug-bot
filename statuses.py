@@ -41,5 +41,5 @@ STATUSES = (
    "hey (with the intention of giving you a long tight hug because you deserve it)",
    "hugs",
    "Less worry, more hugs",
-   "Retweet me for hugging me back ",
+   "Retweet this tweet to hug me back",
 )
