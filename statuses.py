@@ -45,4 +45,10 @@ STATUSES = (
    "Retweet this tweet to hug me back",
    "Hugs are the best",
    "The best feeling in the world is a hug from someone you love",
+   "What's the circumference of a hug divided by the diameter of a hug? \n Grapple Pi.",
+   "A hug is like a boomerang , you get it back right away",
+   "Some moments can only be cured with a big squishy grandma hug",
+   "Hugs aren't like pieces of pie. Plenty of hugs to go around.",
+
+
 )
