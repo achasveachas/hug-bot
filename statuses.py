@@ -42,4 +42,6 @@ STATUSES = (
    "hugs",
    "Less worry, more hugs",
    "Retweet this tweet to hug me back",
+   "Hugs are the best",
+   "The best feeling in the world is a hug from someone you love",
 )
