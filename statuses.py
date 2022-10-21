@@ -49,6 +49,4 @@ STATUSES = (
    "A hug is like a boomerang , you get it back right away",
    "Some moments can only be cured with a big squishy grandma hug",
    "Hugs aren't like pieces of pie. Plenty of hugs to go around.",
-
-
 )
