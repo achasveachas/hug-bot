@@ -51,4 +51,5 @@ STATUSES = (
    "Hugs aren't like pieces of pie. Plenty of hugs to go around.",
    "Hugs are a way to celebrate and provide comfort without saying a single word.",
    "No, I didn't fall. The floor just needed a hug.",
+   "Sometimes a silent hug is the only thing to say.",
 )
