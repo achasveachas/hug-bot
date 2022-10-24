@@ -57,4 +57,5 @@ STATUSES = (
    "You don't always need a plan, sometimes all you need is a hug.",
    "Not good with words? Offer a hug. Hugs are the ultimate source of comfort.",
    "Be kind. Be lovable. Be huggable.",
+   "Hugging is the silent way of saying \"You matter to me\".",
 )
