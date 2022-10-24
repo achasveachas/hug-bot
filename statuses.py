@@ -55,4 +55,6 @@ STATUSES = (
    "In the end, everything will be okay and if it's not, it's not the end, here is a hug to keep you going.",
    "Hugs Matter! One hug can take all the stress away.",
    "You don't always need a plan, sometimes all you need is a hug.",
+   "Not good with words? Offer a hug. Hugs are the ultimate source of comfort.",
+   "Be kind. Be lovable. Be huggable.",
 )
