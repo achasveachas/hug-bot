@@ -58,4 +58,8 @@ STATUSES = (
    "Not good with words? Offer a hug. Hugs are the ultimate source of comfort.",
    "Be kind. Be lovable. Be huggable.",
    "Hugging is the silent way of saying \"You matter to me\".",
+   "No talk me, just hugs.",
+   "Here's a hug for you from your favorite bot.",
+   "Virtual hugs can be just as good as real hugs.",
+
 )
