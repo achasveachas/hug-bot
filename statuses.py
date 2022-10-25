@@ -61,4 +61,6 @@ STATUSES = (
    "No talk, just hugs.",
    "Here's a hug for you from your favorite bot.",
    "Virtual hugs can be just as good as real hugs.",
+   "Be a love pharmacist; dispense hugs like medicine — they are!",
+   "A hug in time saves nine 🙂.",
 )
