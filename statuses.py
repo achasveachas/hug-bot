@@ -58,6 +58,6 @@ STATUSES = (
    "Not good with words? Offer a hug. Hugs are the ultimate source of comfort.",
    "Be kind. Be lovable. Be huggable.",
    "Hugging is the silent way of saying \"You matter to me\".",
-   "Be a love pharmacist; dispense hugs like medicine — they are!","Be a love pharmacist; dispense hugs like medicine — they are!",
+   "Be a love pharmacist; dispense hugs like medicine — they are!",
    "A hug in time saves nine 🙂.",
 )
