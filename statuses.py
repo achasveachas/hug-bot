@@ -63,6 +63,6 @@ STATUSES = (
    "Virtual hugs can be just as good as real hugs.",
    "Be a love pharmacist; dispense hugs like medicine — they are!",
    "A hug in time saves nine 🙂.",
-   "Hey you, i'm talking to you, yes you, i'm sending you a hug",
-   "Roses are red, violets are blue, You're so great, I just want to hug you!",
+   "Hey you! I'm talking to you, yes you! I'm sending you a hug 🤗.",
+   "Roses are red,\nViolets are blue,\nYou're so great,\nI just want to hug you!",
 )
