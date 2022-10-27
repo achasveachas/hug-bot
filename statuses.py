@@ -68,5 +68,5 @@ STATUSES = (
    "A hug is like a boomerang – you get it back right away.",
    "Hug while you can!",
    "A hug is always the right size. \n Winnie the Pooh",
-   "Your biggest critic and hater is likely yourself. Give yourself a hug today 🤗",
+   "Your biggest critic and hater is likely yourself. Give yourself a hug today 🤗.",
 )
