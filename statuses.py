@@ -63,10 +63,15 @@ STATUSES = (
    "Virtual hugs can be just as good as real hugs.",
    "Be a love pharmacist; dispense hugs like medicine — they are!",
    "A hug in time saves nine 🙂.",
-   "Hey you! I'm talking to you, yes you! I'm sending you a hug 🤗.",
+   "Hey you! I'm talking to you, yes you! I'm sending you a hug. 🤗",
    "Roses are red,\nViolets are blue,\nYou're so great,\nI just want to hug you!",
    "A hug is like a boomerang – you get it back right away.",
    "Hug while you can!",
-   "A hug is always the right size. \n Winnie the Pooh",
-   "Your biggest critic and hater is likely yourself. Give yourself a hug today 🤗.",
+   "A hug is always the right size.\n -Winnie the Pooh",
+   "Your biggest critic and hater is likely yourself. Give yourself a hug today. 🤗",
+   "A hug makes you feel good all day.",
+   "I love hugging. I wish I was an octopus so I could hug ten people at a time.",
+   "Hug me and you will see the moon. Love me and I will bring the moon to you!",
+   "Hugs and kisses are ways to express what cannot be said.",
+   "Sometimes all you can do is hug a friend tightly and wish that their pain could be transferred by touch to your own emotional hard drive."
 )
