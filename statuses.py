@@ -42,4 +42,8 @@ STATUSES = (
    "hugs",
    "Less worry, more hugs",
    "Retweet this tweet to hug me back",
+   "A hug is like a boomerang – you get it back right away.",
+   "Hug while you can!",
+   "A hug is always the right size. —Winnie the Pooh",
+   "Your biggest critic and hater is likely yourself. Give yourself a hug today",
 )
