@@ -73,5 +73,6 @@ STATUSES = (
    "I love hugging. I wish I was an octopus so I could hug ten people at a time.",
    "Hug me and you will see the moon. Love me and I will bring the moon to you!",
    "Hugs and kisses are ways to express what cannot be said.",
-   "Sometimes all you can do is hug a friend tightly and wish that their pain could be transferred by touch to your own emotional hard drive."
+   "Sometimes all you can do is hug a friend tightly and wish that their pain could be transferred by touch to your own emotional hard drive.",
+   "My stomach is flat, but L is just silent. "
 )
