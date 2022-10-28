@@ -75,7 +75,7 @@ STATUSES = (
    "Hugs and kisses are ways to express what cannot be said.",
    "Sometimes all you can do is hug a friend tightly and wish that their pain could be transferred by touch to your own emotional hard drive.",
    "In your darkest, hug someone. It helps!",
-   "Live, Love, Hug",
-   "Life is simply better when you receive and give a hug",
+   "Live, Love, Hug.",
+   "Life is simply better when you receive and give a hug.",
    "Go out and hug someone today!",
 )
