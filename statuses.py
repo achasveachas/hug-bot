@@ -78,4 +78,9 @@ STATUSES = (
    "Live, Love, Hug.",
    "Life is simply better when you receive and give a hug.",
    "Go out and hug someone today!",
+   "Hugs make the world a better place",
+   "If you do nothing else today, give someone a hug 🤗",
+   "A bug is like a boomerang, you get it back right away",
+   "There is more power in a good hug than a thousand words",
+   "If hugs were snowflakes ❄️ I'd send you a blizzard",
 )
