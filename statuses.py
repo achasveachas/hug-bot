@@ -81,4 +81,7 @@ STATUSES = (
    "Keep calm and give a hug.",
    "Start your day with a hug! 🤗",
    "Feel the presence of love wrapped up within a hug.",
+   "A hug you shall give, this is the way - Baby yoda (of course it was in gibberish but one can surely understand he asked for hugs)",
+   "'Good. Twice the hug, double teh warmth' - Count Dooku.",
+   "May the hugs be with you.",
 )
