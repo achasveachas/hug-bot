@@ -80,4 +80,5 @@ STATUSES = (
    "Go out and hug someone today!",
    "Keep calm and give a hug.",
    "Start your day with a hug! 🤗",
+   "Feel the presence of love wrapped up within a hug.",
 )
