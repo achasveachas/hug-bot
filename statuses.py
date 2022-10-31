@@ -84,4 +84,6 @@ STATUSES = (
    "'A hug you shall give, this is the way.'\n - Baby yoda (of course it was in gibberish but one can surely understand he asked for hugs).",
    "'Good. Twice the hug, double the warmth.'\n - Count Dooku.",
    "May the hugs be with you.",
+   "Better than esperanto, hugs are a universal language.",
+   "A hug has no time, it is soothing by day and by night.\n - From 'Le petit livre des gros câlins' (Little book of big hugs).",
 )
