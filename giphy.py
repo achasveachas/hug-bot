@@ -10,7 +10,7 @@ def download_random_gif():
     gif_filename = "hug.gif"
 
     giphy_random_url = 'https://api.giphy.com/v1/gifs/random'
-    giphy_api_key = environ['giphy_api_key']
+    giphy_api_key = environ['GIPHY_API_KEY']
     tags = ['hug', 'hugging']
     giphy_params = {
         'api_key': giphy_api_key,
