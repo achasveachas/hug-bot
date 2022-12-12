@@ -1,7 +1,7 @@
 name: hug-replier
 on:
   schedule:
-    - cron: "0 */8 * * *"
+    - cron: "0 2/8 * * *"
 jobs:
   build:
     runs-on: ubuntu-latest
