@@ -9,7 +9,7 @@ giphy.download_random_gif()
 gif_filename = "hug.gif"
 
 api = twitter_api()
-gif_upload = api.media_upload(gif_filename, chunked=True)
+gif_upload = api.media_upload(gif_filename, chunked=True, media_category="tweet_gif")
 api.create_media_metadata(media_id=gif_upload.media_id, alt_text="randomly generated gif, hopefully depicting a hug. ")
 status = api.update_status(
     status=choice(STATUSES),
