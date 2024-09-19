@@ -1,5 +1,6 @@
 name: hug-bot
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 2/3 * * *"
 jobs:
@@ -11,7 +12,7 @@ jobs:
       - name: setup python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: '3.12'
           cache: 'pip' # caching pip dependencies
       - name: install dependencies
         run: pip install -r requirements.txt
@@ -19,8 +20,7 @@ jobs:
         run: |
           python hug-bot.py
         env:
-          TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
-          TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}
-          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
-          TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_SECRET }}
           GIPHY_API_KEY: ${{ secrets.GIPHY_API_KEY }}
+          BLUESKY_USERNAME: ${{ secrets.BLUESKY_USERNAME }}
+          BLUESKY_PASSWORD: ${{ secrets.BLUESKY_PASSWORD }}
+
