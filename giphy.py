@@ -1,7 +1,6 @@
 from urllib.request import urlopen
 from urllib.request import urlretrieve
 from urllib.parse import urlencode
-import os
 from os import environ
 import json
 
