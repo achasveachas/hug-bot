@@ -1,2 +1,2 @@
 giphy-client==1.0.0
-atproto==v0.0.53
+atproto==v0.0.54
