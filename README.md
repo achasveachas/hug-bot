@@ -1,8 +1,8 @@
 # Hug Bot
 
-Hug Bot is a Twitter bot written in Python that tweets a random hug gif every few hours.
+Hug Bot is a Bluesky bot (it was originally written as a Twitter bot) written in Python that posts a random hug gif every few hours.
 
-You can follow [@ICanHazHugzPlz](https://twitter.com/ICanHazHugzPlz) on Twitter for all your huggy needs.
+You can follow [@hugbot.bsky.social](https://bsky.app/profile/hugbot.bsky.social) on Bluesky for all your huggy needs.
 
 ![Two dudes hugging wholesomely](https://media1.giphy.com/media/xT1XGQve0LxCblDLr2/giphy.gif)
 
