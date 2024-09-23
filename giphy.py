@@ -13,7 +13,6 @@ def download_random_gif():
     giphy_params = {
         'api_key': giphy_api_key,
         'tag': ' '.join(tags),
-        'rating': 'g',
         'fmt': 'json',
     }
     encoded_params = urlencode(giphy_params)
