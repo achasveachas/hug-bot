@@ -10,6 +10,10 @@ You can follow [@hugbot.bsky.social](https://bsky.app/profile/hugbot.bsky.social
 
 This bot is licensed under the [MIT](/LICENSE) license.
 
+## Development
+
+In order to run locally, copy the `.env.sample` file and rename it to `.env`, fill in the values with your Bluesky username, password, and you Giphy API key, and run `source .env`
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at [https://github.com/achasveachas/hug-bot/issues](https://github.com/achasveachas/alternate-side-bot/issues).
