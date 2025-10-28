@@ -26,7 +26,6 @@ STATUSES = (
    "Friends be like \"I know a spot\" and then just give you a hug.",
    "I'm a:\n⚪️ Man\n⚪️ Woman\n🔘 Bluesky Bot\n\nLooking for a:\n⚪️ Man\n⚪️ Woman\n🔘 Hug!",
    "The snuggle is real... 🤗",
-   "Don't forget to wear your mask! It's like a hug for your face 😷\n\nAnd while you're here, have a virtual hug 🤗",
    "Do you need a hug?\n\nYes          Yes             Yes\n 👇           👇             👇",
    "My \"Free Hugs!\" t-shirt is raising a lot of questions already answered by my \"Free Hugs!\" t-shirt.",
    "You're in her DMs, I'm here giving out hugs.\n\nWe are not the same.",
