@@ -24,7 +24,6 @@ STATUSES = (
    "Here's a small hug the size of a large hug!",
    "I love hugs!\n\nSend skeet!",
    "Friends be like \"I know a spot\" and then just give you a hug.",
-   "Hugs are great!\n\n\n\n\n\n\nⓘ Official sources all agree this is the case.",
    "I'm a:\n⚪️ Man\n⚪️ Woman\n🔘 Bluesky Bot\n\nLooking for a:\n⚪️ Man\n⚪️ Woman\n🔘 Hug!",
    "The snuggle is real... 🤗",
    "Don't forget to wear your mask! It's like a hug for your face 😷\n\nAnd while you're here, have a virtual hug 🤗",
