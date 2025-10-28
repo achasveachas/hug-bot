@@ -37,7 +37,7 @@ STATUSES = (
    "Hugs are a great gift 🤗 one size fits all, and no one minds if you return it.",
    "hugs",
    "Less worry, more hugs.",
-   "Retweet this tweet to hug me back.",
+   "Reskeet this post to hug me back.",
    "Hugs are the best.",
    "The best feeling in the world is a hug from someone you love.",
    "A hug is like a boomerang , you get it back right away.",
