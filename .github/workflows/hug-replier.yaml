@@ -2,7 +2,7 @@ name: hug-replier
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 2/8 * * *"
+    - cron: "*/10 * * * *"
 jobs:
   build:
     runs-on: ubuntu-latest
