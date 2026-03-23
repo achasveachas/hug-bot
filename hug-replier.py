@@ -80,3 +80,6 @@ for i, target in enumerate(reply_targets, start=1):
     finally:
         if 'video_filename' in locals() and os.path.exists(video_filename):
             os.remove(video_filename)
+
+# Summary log
+print(f"\n🤗 Hug-replier summary: Replied to {len(reply_targets)} post(s)")
